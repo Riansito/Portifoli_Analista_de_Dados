@@ -124,6 +124,51 @@ O objetivo deste projeto é construir um modelo capaz de prever o preço de carr
 
 ---
 
+### 📉 **Estudo de Caso — Análise de Churn (Excel + Python + Power Pivot)**
+
+Este projeto simula um cenário real de uma **empresa de telecomunicações** que buscava compreender os **motivos de cancelamento de clientes (churn)**, identificando os **produtos, planos e comportamentos** que mais influenciam na perda de clientes e na rentabilidade.
+
+🔍 **Objetivos principais:**
+
+* Analisar os padrões de churn e o impacto sobre receita e desempenho.
+* Identificar os produtos e planos com maiores taxas de cancelamento.
+* Modelar e integrar os dados para análises dinâmicas e visuais no Excel (Power Pivot).
+
+⚙️ **Principais etapas (Processo ETL):**
+
+* **Extração dos dados:** coleta de informações de clientes, planos, dispositivos, receitas e status de cancelamento.
+* **Transformação dos dados:** limpeza, tradução e padronização com **Python (Pandas)**; criação de IDs únicos e separação em **tabelas fato e dimensão** (modelo estrela).
+* **Carga e análise:** integração no **Excel com Power Pivot**, criação de relacionamentos, **tabelas dinâmicas, gráficos e medidas DAX**.
+
+🧩 **Modelagem dos Dados (Star Schema):**
+
+* **Dim_Clientes:** ID do cliente, tempo de vínculo e taxa de satisfação.
+* **Dim_DispositivosMTN:** tipos de dispositivos (Chip Móvel, Modem, Roteador etc.).
+* **Dim_Planos:** detalhes dos planos, como nome, tipo e franquia de dados.
+* **Fat_Churn:** status de cancelamento, receita total, uso de dados, motivo do churn e data da compra.
+
+Essa estrutura relacional permitiu análises cruzadas e criação de medidas DAX para explorar o comportamento de clientes e produtos de forma dinâmica.
+
+🧰 **Tecnologias Utilizadas:**
+
+| Tecnologia                          | Finalidade                                    |
+| ----------------------------------- | --------------------------------------------- |
+| **Python (Pandas)**                 | Limpeza, tradução e preparação dos dados      |
+| **Excel / Power Pivot**             | Modelagem relacional e criação de medidas DAX |
+| **Power Query / Tabelas Dinâmicas** | Carga, exploração e insights dos dados        |
+
+📈 **Resultados e Insights:**
+
+* Identificação dos **produtos e planos com maior taxa de churn**.
+* Análise dos **principais motivos de cancelamento e seu impacto financeiro**.
+* Compreensão do **perfil de clientes mais propensos a cancelar**.
+* Apoio à **tomada de decisão estratégica**, auxiliando na criação de ações para **redução do churn e aumento da retenção de clientes**.
+
+🔗 [Ver projeto (Excel + Python + Power Pivot)](https://github.com/Riansito/Analise_Churn_Telecomunicacoes)
+
+---
+
+
 ## ⚙️ Tecnologias e Ferramentas
 
 * **Linguagens:** SQL, Python
