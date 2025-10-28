@@ -140,24 +140,7 @@ Este projeto simula um cenário real de uma **empresa de telecomunicações** qu
 * **Transformação dos dados:** limpeza, tradução e padronização com **Python (Pandas)**; criação de IDs únicos e separação em **tabelas fato e dimensão** (modelo estrela).
 * **Carga e análise:** integração no **Excel com Power Pivot**, criação de relacionamentos, **tabelas dinâmicas, gráficos e medidas DAX**.
 
-🧩 **Modelagem dos Dados (Star Schema):**
-
-* **Dim_Clientes:** ID do cliente, tempo de vínculo e taxa de satisfação.
-* **Dim_DispositivosMTN:** tipos de dispositivos (Chip Móvel, Modem, Roteador etc.).
-* **Dim_Planos:** detalhes dos planos, como nome, tipo e franquia de dados.
-* **Fat_Churn:** status de cancelamento, receita total, uso de dados, motivo do churn e data da compra.
-
-Essa estrutura relacional permitiu análises cruzadas e criação de medidas DAX para explorar o comportamento de clientes e produtos de forma dinâmica.
-
-🧰 **Tecnologias Utilizadas:**
-
-| Tecnologia                          | Finalidade                                    |
-| ----------------------------------- | --------------------------------------------- |
-| **Python (Pandas)**                 | Limpeza, tradução e preparação dos dados      |
-| **Excel / Power Pivot**             | Modelagem relacional e criação de medidas DAX |
-| **Power Query / Tabelas Dinâmicas** | Carga, exploração e insights dos dados        |
-
-📈 **Resultados e Insights:**
+📈 **Resultados:**
 
 * Identificação dos **produtos e planos com maior taxa de churn**.
 * Análise dos **principais motivos de cancelamento e seu impacto financeiro**.
