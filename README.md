@@ -151,6 +151,51 @@ Este projeto simula um cenário real de uma **empresa de telecomunicações** qu
 
 ---
 
+### 🎬 **Projeto de Análise de Filmes com ETL, SQL e Dashboard Interativo**
+
+Este projeto apresenta um cenário real de análise de dados, envolvendo todo o processo de **ETL (Extração, Transformação e Carga)**, armazenamento em **banco de dados SQL** e construção de um **dashboard interativo** para visualização dos principais insights sobre os filmes mais populares e bem avaliados da base do **TMDB (The Movie Database)**.
+
+A análise busca compreender **padrões de popularidade**, **desempenho por gênero** e **tendências temporais**, fornecendo informações estratégicas que auxiliam plataformas de streaming na tomada de decisões sobre **curadoria de conteúdo** e **marketing**.
+
+🔍 **Objetivos principais:**
+
+* Extrair, transformar e carregar dados da API do TMDB para um banco de dados PostgreSQL.
+* Limpar, padronizar e modelar os dados em camadas organizadas.
+* Realizar consultas SQL para responder perguntas de negócio sobre popularidade e desempenho dos gêneros.
+* Criar um dashboard interativo para análise visual e dinâmica dos resultados obtidos.
+
+⚙️ **Principais etapas:**
+
+**ETL — Extração, Transformação e Carga:**
+
+* Coleta dos dados diretamente da API do TMDB, abrangendo diferentes gêneros cinematográficos.
+* Limpeza de valores nulos, ajuste de datas, arredondamento de notas de avaliação e formatação dos links de pôsteres.
+* Carga dos dados tratados para um banco de dados **PostgreSQL em nuvem**, garantindo performance e integração com ferramentas analíticas.
+
+**EDA — Análise Exploratória de Dados (SQL):**
+
+* Identificação dos **Top 3 filmes mais populares**.
+* Análise dos **gêneros com maior popularidade e avaliação média**.
+* Estudo da **popularidade dos filmes ao longo dos anos**, verificando se produções recentes possuem mais destaque.
+* Criação de visões SQL para alimentar diretamente o dashboard interativo.
+
+**Dashboard Interativo (Power BI / Plotly Dash):**
+
+* Página com os **Top 3 filmes mais populares**.
+* Visualizações de **gêneros mais populares** e **melhores avaliações médias**.
+* Gráfico de **popularidade por ano de lançamento**.
+* **Filtros dinâmicos** por gênero, ano e idioma original, permitindo análises personalizadas.
+
+📈 **Resultados:**
+
+* Dashboard interativo com análise detalhada da **popularidade e desempenho por gênero**.
+* Identificação dos **gêneros com maior engajamento** e **melhores avaliações médias**.
+* Visualização da **evolução da popularidade dos filmes ao longo dos anos**, revelando tendências de interesse.
+* Base estruturada e atualizável, possibilitando **atualizações automáticas** e **insights em tempo real**.
+
+🔗 [Ver projeto](https://github.com/Riansito/Analise_de_Filmes_com_Dados_da_TMDb-_Do_ETL_ao_Dashboard_Interativo)
+
+---
 
 ## ⚙️ Tecnologias e Ferramentas
 
