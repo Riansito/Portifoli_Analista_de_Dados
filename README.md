@@ -7,6 +7,7 @@ Aqui você encontrará estudos de caso reais envolvendo **SQL, Power BI, Python,
 Cada projeto demonstra minha capacidade de transformar dados brutos em decisões de negócio por meio de análises estatísticas, modelagem de métricas e visualizações eficientes.
 
 _Observação: A seção de resultados apresenta apenas um recorte dos principais achados. Para acessar todos os insights, análises detalhadas e recomendações de ações, basta clicar no link, que direciona para o projeto completo._
+
 ---
 
 ## 📁 Projetos
