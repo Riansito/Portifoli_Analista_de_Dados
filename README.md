@@ -224,8 +224,7 @@ Este projeto analisa dados reais de ocorrências criminais em Boston com o objet
 * Crimes se concentram em poucas vias, com destaque para a **Washington St**.
 * Evidência de que ações direcionadas podem reduzir ocorrências em **10% a 20%**.
 
-🔗 **Projeto completo disponível no GitHub:**
- [Ver Projeto](https://github.com/Riansito/Analise_Criminalidade_Boston)
+[Ver Projeto](https://github.com/Riansito/Analise_Criminalidade_Boston)
 
 ---
 
