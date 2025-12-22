@@ -3,9 +3,10 @@
 # 📊 Portfólio de Análise de Dados — Rian Freires
 
 Bem-vindo ao meu portfólio de projetos em **Análise de Dados**!
-Aqui você encontrará estudos de caso reais envolvendo **SQL, Power BI, Python e Excel**, com foco em **organização de dados, criação de dashboards interativos e geração de insights estratégicos**.
+Aqui você encontrará estudos de caso reais envolvendo **SQL, Power BI, Python, Excel/Google Sheets**, com foco em **organização de dados, criação de dashboards interativos e geração de insights estratégicos**.
 Cada projeto demonstra minha capacidade de transformar dados brutos em decisões de negócio por meio de análises estatísticas, modelagem de métricas e visualizações eficientes.
 
+_Observação: A seção de resultados apresenta apenas um recorte dos principais achados. Para acessar todos os insights, análises detalhadas e recomendações de ações, basta clicar no link, que direciona para o projeto completo._
 ---
 
 ## 📁 Projetos
@@ -196,6 +197,37 @@ A análise busca compreender **padrões de popularidade**, **desempenho por gên
 🔗 [Ver projeto](https://github.com/Riansito/Analise_de_Filmes_com_Dados_da_TMDb-_Do_ETL_ao_Dashboard_Interativo)
 
 ---
+
+### 🚨 **Estudo de Caso — Análise de Criminalidade Urbana (SQL + Análise Exploratória)**
+
+Este projeto analisa dados reais de ocorrências criminais em Boston com o objetivo de identificar **padrões temporais, espaciais e por tipo de crime**, apoiando decisões estratégicas para ações preventivas e melhor alocação de recursos na segurança pública.
+
+🔍 **Objetivos principais:**
+
+* Identificar sazonalidade e horários críticos de criminalidade.
+* Mapear os tipos de crimes mais recorrentes.
+* Detectar concentração espacial das ocorrências em vias específicas.
+* Apoiar ações orientadas por dados para redução de crimes.
+
+⚙️ **Principais etapas:**
+
+* **Análise em SQL (Google BigQuery):** agregações temporais, análise por hora do dia, crimes mais frequentes e uso de CTEs para segmentação dos dados.
+* **Exploração espacial:** identificação das ruas com maior concentração de ocorrências.
+* **Visualização dos dados:** criação de gráficos a partir de tabelas dinâmicas e análises pivot para facilitar a interpretação no google sheets.
+* **Storytelling:** organização dos insights em uma narrativa visual clara e objetiva.
+
+📈 **Resultados:**
+
+* Identificação de **sazonalidade clara**, com aumento de crimes entre **junho e agosto**.
+* Horários entre **10h e 20h** apresentam registros acima da média tendo um pico de crime das 16h às 18h.
+* Crimes se concentram em poucas vias, com destaque para a **Washington St**.
+* Evidência de que ações direcionadas podem reduzir ocorrências em **10% a 20%**.
+
+🔗 **Projeto completo disponível no GitHub:**
+ [Ver Projeto](https://github.com/Riansito/Analise_Criminalidade_Boston)
+
+---
+
 
 ## ⚙️ Tecnologias e Ferramentas
 
