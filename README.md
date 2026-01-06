@@ -14,6 +14,35 @@ _Observação: A seção de resultados apresenta apenas um recorte dos principai
 
 ---
 
+### 🚨 **Estudo de Caso — Análise de Criminalidade Urbana (SQL + Análise Exploratória)**
+
+Este projeto analisa dados reais de ocorrências criminais em Boston com o objetivo de identificar **padrões temporais, espaciais e por tipo de crime**, apoiando decisões estratégicas para ações preventivas e melhor alocação de recursos na segurança pública.
+
+🔍 **Objetivos principais:**
+
+* Identificar sazonalidade e horários críticos de criminalidade.
+* Mapear os tipos de crimes mais recorrentes.
+* Detectar concentração espacial das ocorrências em vias específicas.
+* Apoiar ações orientadas por dados para redução de crimes.
+
+⚙️ **Principais etapas:**
+
+* **Análise em SQL (Google BigQuery):** agregações temporais, análise por hora do dia, crimes mais frequentes e uso de CTEs para segmentação dos dados.
+* **Exploração espacial:** identificação das ruas com maior concentração de ocorrências.
+* **Visualização dos dados:** criação de gráficos a partir de tabelas dinâmicas e análises pivot para facilitar a interpretação no google sheets.
+* **Storytelling:** organização dos insights em uma narrativa visual clara e objetiva.
+
+📈 **Resultados:**
+
+* Identificação de **sazonalidade clara**, com aumento de crimes entre **junho e agosto**.
+* Horários entre **10h e 20h** apresentam registros acima da média tendo um pico de crime das 16h às 18h.
+* Crimes se concentram em poucas vias, com destaque para a **Washington St**.
+* Evidência de que ações direcionadas podem reduzir ocorrências em **10% a 20%**.
+
+🔗 [Ver Projeto](https://github.com/Riansito/Analise_Criminalidade_Boston)
+
+---
+
 ### 🏢 **Estudo de Caso — Projeto de Dados Empresariais (SQL + Power BI)**
 
 Este projeto simula um cenário real de negócio, no qual diferentes áreas da empresa precisavam de respostas analíticas para apoiar decisões estratégicas.
@@ -196,35 +225,6 @@ A análise busca compreender **padrões de popularidade**, **desempenho por gên
 * Base estruturada e atualizável, possibilitando **atualizações automáticas** e **insights em tempo real**.
 
 🔗 [Ver projeto](https://github.com/Riansito/Analise_de_Filmes_com_Dados_da_TMDb-_Do_ETL_ao_Dashboard_Interativo)
-
----
-
-### 🚨 **Estudo de Caso — Análise de Criminalidade Urbana (SQL + Análise Exploratória)**
-
-Este projeto analisa dados reais de ocorrências criminais em Boston com o objetivo de identificar **padrões temporais, espaciais e por tipo de crime**, apoiando decisões estratégicas para ações preventivas e melhor alocação de recursos na segurança pública.
-
-🔍 **Objetivos principais:**
-
-* Identificar sazonalidade e horários críticos de criminalidade.
-* Mapear os tipos de crimes mais recorrentes.
-* Detectar concentração espacial das ocorrências em vias específicas.
-* Apoiar ações orientadas por dados para redução de crimes.
-
-⚙️ **Principais etapas:**
-
-* **Análise em SQL (Google BigQuery):** agregações temporais, análise por hora do dia, crimes mais frequentes e uso de CTEs para segmentação dos dados.
-* **Exploração espacial:** identificação das ruas com maior concentração de ocorrências.
-* **Visualização dos dados:** criação de gráficos a partir de tabelas dinâmicas e análises pivot para facilitar a interpretação no google sheets.
-* **Storytelling:** organização dos insights em uma narrativa visual clara e objetiva.
-
-📈 **Resultados:**
-
-* Identificação de **sazonalidade clara**, com aumento de crimes entre **junho e agosto**.
-* Horários entre **10h e 20h** apresentam registros acima da média tendo um pico de crime das 16h às 18h.
-* Crimes se concentram em poucas vias, com destaque para a **Washington St**.
-* Evidência de que ações direcionadas podem reduzir ocorrências em **10% a 20%**.
-
-🔗 [Ver Projeto](https://github.com/Riansito/Analise_Criminalidade_Boston)
 
 ---
 
