@@ -14,6 +14,36 @@ _Observação: A seção de resultados apresenta apenas um recorte dos principai
 
 ---
 
+### 📊**Estudo de Caso — Eficiência Financeira em Marketing (SQL + BI)**
+
+Projeto focado em analisar a performance financeira de campanhas de marketing digital, identificando o **produto mais rentável** e as **melhores combinações de canal e região** para maximizar o ROI e reduzir custos.
+
+🔍 **Objetivos principais:**
+
+* Identificar o produto com maior eficiência financeira
+* Avaliar canais com melhor custo-benefício (ROI e CPA)
+* Analisar regiões com maior retorno e menor custo
+* Apoiar decisões estratégicas de alocação de orçamento
+
+⚙️ **Principais etapas:**
+
+* Análise em SQL (Google BigQuery): cálculo de ROI, CPA, ticket médio e custos
+* Análise comparativa por produto, canal e região
+* Visualização de dados no Looker
+* Storytelling e recomendações estratégicas no Canva
+
+📈 **Resultados:**
+
+* Identificação do **Product C** como o mais rentável
+* **Search Engine** como canal mais eficiente
+* Região **East** com melhor retorno financeiro
+* Base para aumento de ROI e redução de custos operacionais
+
+🔗 [Ver Projeto](https://github.com/Riansito/Analise_Eficiencia_Marketing)
+
+
+---
+
 ### 🚨 **Estudo de Caso — Análise de Criminalidade Urbana (SQL + Análise Exploratória)**
 
 Este projeto analisa dados reais de ocorrências criminais em Boston com o objetivo de identificar **padrões temporais, espaciais e por tipo de crime**, apoiando decisões estratégicas para ações preventivas e melhor alocação de recursos na segurança pública.
